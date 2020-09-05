@@ -1,0 +1,11 @@
+Lab 5 | Spring 2020 | Sidhartha Agrawal
+
+I have implemented all the mentioned features in the handout.
+
+Extra Credit:
+
+Implemented Sort asc/desc by Name and Directory while Browsing Directories.
+
+
+Note: For the linter, I have done my best possible to reduce the number of errors. 
+It is now in a state where no error is fixable until I change the whole implementation.

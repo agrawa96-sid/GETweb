@@ -1,0 +1,133 @@
+26282 execve("./myhttpd", ["myhttpd", "-t", "60123"], 0x7ffe8e460f38 /* 45 vars */) = 0
+26282 brk(NULL)                         = 0x558d06e90000
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=214667, ...}) = 0
+26282 mmap(NULL, 214667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7febebd39000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0]\1\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=426232, ...}) = 0
+26282 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febebd37000
+26282 mmap(NULL, 2521520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeb8df000
+26282 mprotect(0x7febeb93d000, 2097152, PROT_NONE) = 0
+26282 mmap(0x7febebb3d000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5e000) = 0x7febebb3d000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\6\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=2357760, ...}) = 0
+26282 mmap(NULL, 4467040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeb49c000
+26282 mprotect(0x7febeb6b5000, 2093056, PROT_NONE) = 0
+26282 mmap(0x7febeb8b4000, 163840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x218000) = 0x7febeb8b4000
+26282 mmap(0x7febeb8dc000, 10592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7febeb8dc000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\304\10\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=1594864, ...}) = 0
+26282 mmap(NULL, 3702848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeb113000
+26282 mprotect(0x7febeb28c000, 2097152, PROT_NONE) = 0
+26282 mmap(0x7febeb48c000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7febeb48c000
+26282 mmap(0x7febeb498000, 12352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7febeb498000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=96616, ...}) = 0
+26282 mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeaefb000
+26282 mprotect(0x7febeaf12000, 2093056, PROT_NONE) = 0
+26282 mmap(0x7febeb111000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7febeb111000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+26282 mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeacdc000
+26282 mprotect(0x7febeacf6000, 2093056, PROT_NONE) = 0
+26282 mmap(0x7febeaef5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7febeaef5000
+26282 mmap(0x7febeaef7000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7febeaef7000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+26282 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febea8eb000
+26282 mprotect(0x7febeaad2000, 2097152, PROT_NONE) = 0
+26282 mmap(0x7febeacd2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7febeacd2000
+26282 mmap(0x7febeacd8000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7febeacd8000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+26282 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febebd35000
+26282 mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febea6e7000
+26282 mprotect(0x7febea6ea000, 2093056, PROT_NONE) = 0
+26282 mmap(0x7febea8e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7febea8e9000
+26282 close(3)                          = 0
+26282 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26282 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+26282 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+26282 fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+26282 mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febea349000
+26282 mprotect(0x7febea4e6000, 2093056, PROT_NONE) = 0
+26282 mmap(0x7febea6e5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7febea6e5000
+26282 close(3)                          = 0
+26282 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febebd33000
+26282 arch_prctl(ARCH_SET_FS, 0x7febebd33b80) = 0
+26282 mprotect(0x7febeacd2000, 16384, PROT_READ) = 0
+26282 mprotect(0x7febea6e5000, 4096, PROT_READ) = 0
+26282 mprotect(0x7febea8e9000, 4096, PROT_READ) = 0
+26282 mprotect(0x7febeaef5000, 4096, PROT_READ) = 0
+26282 mprotect(0x7febeb111000, 4096, PROT_READ) = 0
+26282 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febebd31000
+26282 mprotect(0x7febeb48c000, 40960, PROT_READ) = 0
+26282 mprotect(0x7febeb8b4000, 114688, PROT_READ) = 0
+26282 mprotect(0x7febebb3d000, 16384, PROT_READ) = 0
+26282 mprotect(0x558d05ddd000, 4096, PROT_READ) = 0
+26282 mprotect(0x7febebd6e000, 4096, PROT_READ) = 0
+26282 munmap(0x7febebd39000, 214667)    = 0
+26282 set_tid_address(0x7febebd33e50)   = 26282
+26282 set_robust_list(0x7febebd33e60, 24) = 0
+26282 rt_sigaction(SIGRTMIN, {sa_handler=0x7febeace1cb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7febeacee890}, NULL, 8) = 0
+26282 rt_sigaction(SIGRT_1, {sa_handler=0x7febeace1d50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7febeacee890}, NULL, 8) = 0
+26282 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+26282 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+26282 brk(NULL)                         = 0x558d06e90000
+26282 brk(0x558d06eb1000)               = 0x558d06eb1000
+26282 futex(0x7febeb49909c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26282 futex(0x7febeb4990a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26282 prlimit64(0, RLIMIT_AS, {rlim_cur=40000*1024, rlim_max=91280000}, NULL) = 0
+26282 prlimit64(0, RLIMIT_CPU, {rlim_cur=300, rlim_max=600}, NULL) = 0
+26282 prlimit64(0, RLIMIT_NPROC, {rlim_cur=50, rlim_max=100}, NULL) = 0
+26282 rt_sigaction(SIGINT, {sa_handler=0x558d05bcd77c, sa_mask=[], sa_flags=SA_RESTORER|SA_NOCLDSTOP|0x1bd5ff8, sa_restorer=0x7febeacee890}, NULL, 8) = 0
+26282 rt_sigaction(SIGCHLD, {sa_handler=0x558d05bcd791, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7febeacee890}, NULL, 8) = 0
+26282 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 343), ...}) = 0
+26282 write(1, "116 0 60123 0\n", 14)   = 14
+26282 socket(AF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+26282 setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+26282 bind(3, {sa_family=AF_INET, sin_port=htons(60123), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+26282 listen(3, 50)                     = 0
+26282 accept(3, {sa_family=AF_INET, sin_port=htons(46908), sin_addr=inet_addr("128.10.2.13")}, [16]) = 4
+26282 write(1, "Received a connection from 128.1"..., 39) = 39
+26282 mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7febe9b48000
+26282 mprotect(0x7febe9b49000, 8388608, PROT_READ|PROT_WRITE) = 0
+26282 clone(child_stack=0x7febea347fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7febea3489d0, tls=0x7febea348700, child_tidptr=0x7febea3489d0) = -1 EAGAIN (Resource temporarily unavailable)
+26282 futex(0x7febeb1121a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26282 write(2, "terminate called after throwing "..., 48) = 48
+26282 write(2, "std::system_error", 17) = 17
+26282 write(2, "'\n", 2)                = 2
+26282 write(2, "  what():  ", 11)       = 11
+26282 write(2, "Resource temporarily unavailable", 32) = 32
+26282 write(2, "\n", 1)                 = 1
+26282 rt_sigprocmask(SIG_UNBLOCK, [ABRT], NULL, 8) = 0
+26282 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1], [], 8) = 0
+26282 getpid()                          = 26282
+26282 gettid()                          = 26282
+26282 tgkill(26282, 26282, SIGABRT)     = 0
+26282 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+26282 --- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=26282, si_uid=660477} ---
+26282 +++ killed by SIGABRT +++
